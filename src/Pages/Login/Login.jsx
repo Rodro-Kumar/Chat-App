@@ -9,6 +9,8 @@ const Login = () => {
     setcheck(!check);
   };
 
+  console.log(signIn);
+
   const HandleLogin = () => {
     setsignIn(!signIn);
   };
@@ -58,7 +60,8 @@ const Login = () => {
                       <h5 className="font-popppins font-medium text-sm text-black pb-1">
                         Password
                       </h5>
-                      <h5 className="cursor-pointer hover:underline font-popppins font-medium text-[10px] text-[#0C2A92]">
+
+                      <h5 className="cursor-pointer hover:underline font-popppins font-medium text-[10px] text-[#0C2A92">
                         forgot password
                       </h5>
                     </div>
@@ -98,9 +101,6 @@ const Login = () => {
                     <div className="flex items-center pt-6 justify-between">
                       <h5 className="font-popppins font-medium text-sm text-black pb-1">
                         Password
-                      </h5>
-                      <h5 className="cursor-pointer hover:underline font-popppins font-medium text-[10px] text-[#0C2A92]">
-                        forgot password
                       </h5>
                     </div>
                     <input
