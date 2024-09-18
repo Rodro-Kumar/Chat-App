@@ -43,6 +43,19 @@
 }
 
 @layer components {
+  #user::-webkit-scrollbar {
+    width: 0; /* width of the entire scrollbar */
+  }
+
+  #user::-webkit-scrollbar-track {
+    background: transparent; /* color of the tracking area */
+  }
+
+  #user::-webkit-scrollbar-thumb {
+    background-color: transparent; /* color of the scroll thumb */
+    border-radius: 20px; /* roundness of the scroll thumb */
+    border: none; /* creates padding around scroll thumb */
+  }
   #logiLeftBg {
     background: url("/src/assets/chris-lee-70l1tDAI6rM-unsplash\ 2.png");
     background-position: center;
