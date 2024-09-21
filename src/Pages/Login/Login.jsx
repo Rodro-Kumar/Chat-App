@@ -20,7 +20,7 @@ const Login = () => {
         <div
           className={`flex items-center justify-between h-[100vh] rounded-lg p-5`}
         >
-          <div id="logiLeftBg" className={` h-full w-[50%]`}></div>
+          <div id="logiLeftBg" className="h-[80%] w-[50%] rounded-l-xl"></div>
 
           <div
             className={`w-[45%] flex flex-col items-start justify-center h-full    rounded-r-xl`}
