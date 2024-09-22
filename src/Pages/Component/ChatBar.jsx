@@ -15,20 +15,20 @@ const ChatBar = () => {
             <img src={img} alt="" className="w-full h-full" />
           </div>
           <div>
-            <h4 className="text-base font-popppins font-medium text-black">
+            <h4 className="text-base font-popppins font-medium text-[#5C4033]">
               Rodro Karmakar
             </h4>
             <div className="flex items-center gap-x-1">
               <h5 className="text-[10px] font-popppins font-normal text-black leading-none">
                 Active
               </h5>
-              <div className="size-[6px] rounded-full bg-green-600"></div>
+              <div className="size-[6px] rounded-full bg-green-500"></div>
             </div>
           </div>
         </div>
 
         <div>
-          <span className="text-green-700 text-2xl cursor-pointer">
+          <span className="text-[#5C4033] text-2xl cursor-pointer">
             <HiOutlineDotsVertical />
           </span>
         </div>
@@ -41,11 +41,11 @@ const ChatBar = () => {
             <div className=" size-[25px] rounded-full overflow-hidden leading-none">
               <img src={img} alt="" className="w-full h-full object-cover" />
             </div>
-            <h5 className="text-[10px] font-popppins font-normal text-green-600">
+            <h5 className="text-[10px] font-popppins font-normal text-[#5C4033]">
               2:00 PM
             </h5>
           </div>
-          <div className="py-2 bg-green-500 px-2 rounded-t-lg rounded-br-lg">
+          <div className="py-2 bg-[#f3e0bf] text-sm font-popppins font-medium text-[#5C4033] px-2 rounded-t-lg rounded-br-lg">
             <h4 className="leading-none">message</h4>
           </div>
         </div>
@@ -55,16 +55,16 @@ const ChatBar = () => {
             <div className=" size-[25px] rounded-full overflow-hidden leading-none">
               <img src={img} alt="" className="w-full h-full object-cover" />
             </div>
-            <h5 className="text-[10px] font-popppins font-normal text-green-600">
+            <h5 className="text-[10px] font-popppins font-normal text-[#5C4033]">
               2:00 PM
             </h5>
           </div>
-          <div className="py-2 bg-green-500 px-2 rounded-t-lg rounded-bl-lg">
+          <div className="py-2 bg-[#f3e0bf] text-sm font-popppins font-medium text-[#5C4033] px-2 rounded-t-lg rounded-bl-lg">
             <h4 className="leading-none">message</h4>
           </div>
         </div>
         {/* sender  img*/}
-        <div className="flex items-end gap-x-3 flex-row-reverse">
+        <div className="flex items-end gap-x-3 flex-row-reverse pt-2">
           <div>
             <div className=" size-[25px] rounded-full overflow-hidden leading-none">
               <img src={img} alt="" className="w-full h-full object-cover" />
